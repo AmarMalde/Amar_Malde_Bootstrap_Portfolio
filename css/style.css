@@ -7,6 +7,14 @@
 * {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;   
+    text-decoration: none !important;
 }
 
+.banner {
+    width: 100%;
+}
+
+.jumbotron {
+    margin-left: 10%;
+    width:80%;
+}
