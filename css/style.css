@@ -1,0 +1,12 @@
+:root {
+    --matchingYellow:  rgb(231, 179, 0);
+    --light-grey: rgb(196, 196, 196);
+    --dark-grey: rgb(77, 77, 77);
+}
+
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;   
+}
+
