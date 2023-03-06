@@ -1,5 +1,5 @@
 :root {
-    --matchingYellow:  rgb(231, 179, 0);
+    --matchingYellow: rgb(231, 179, 0);
     --light-grey: rgb(196, 196, 196);
     --dark-grey: rgb(77, 77, 77);
 }
@@ -10,11 +10,44 @@
     text-decoration: none !important;
 }
 
-.banner {
-    width: 100%;
+.container-fluid {
+    margin: 10px;
 }
+
+.navbar {
+    background-color: var(--dark-grey) !important;
+}
+
+.nav-link {
+    color: var(--matchingYellow);
+}
+
 
 .jumbotron {
     margin-left: 10%;
-    width:80%;
+    width: 80%;
+}
+
+footer {
+    padding: 5px;
+    width: 100%;
+    background-color: var(--matchingYellow);
+    color: var(--dark-grey);
+    text-align: center;
+}
+
+body {
+    background-color: var(--light-grey);
+}
+
+h3 {
+    border-right: 5px solid var(--matchingYellow);
+}
+
+#aboutMe {
+    display: flex;
+}
+
+p {
+    padding: 10px
 }
