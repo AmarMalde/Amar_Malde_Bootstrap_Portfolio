@@ -1,3 +1,4 @@
+/* sets variables for colours used across this site and my other sites ot have a consistent house style */
 :root {
     --matchingYellow: rgb(231, 179, 0);
     --light-grey: rgb(196, 196, 196);
@@ -14,15 +15,17 @@
     margin: 10px;
 }
 
+/* overrides default boostrap styling */
 .navbar {
     background-color: var(--dark-grey) !important;
 }
 
+/* overrides default boostrap styling */
 .nav-link {
     color: var(--matchingYellow);
 }
 
-
+/* overrides default boostrap styling */
 .jumbotron {
     margin-left: 10%;
     width: 80%;
@@ -44,10 +47,19 @@ h3 {
     border-right: 5px solid var(--matchingYellow);
 }
 
+/* flex container is used to integrate the picture into the flex well  */
 #aboutMe {
     display: flex;
 }
 
 p {
     padding: 10px
+}
+
+#projectCards {
+    padding: 50px
+}
+
+.DescriptionPTag {
+    padding: 0px
 }

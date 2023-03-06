@@ -13,7 +13,7 @@
 
 <body>
 
-
+  <!-- bootstrap's navbar component -->
   <nav class="navbar navbar-expand-lg justify-content-center">
     <ul class="navbar-nav active">
       <li class="nav-item">
@@ -31,6 +31,7 @@
     </ul>
   </nav>
 
+  <!-- bootstrap's jumabron component -->
   <div class="jumbotron">
     <h2 class="display-4">Amar Malde's Portfolio!</h2>
     <p class="lead">This is my Portfolio, built to showcase my skills. It was made using bootstrap, which is great for
@@ -60,51 +61,119 @@
     <h3 class="display-4">Project Showcase</h3>
   </div>
 
-
-  <section class="row" id="projectCards">
-    <div class="col-sm-6">
+  <!-- Section containing seperate bootstrap cards with various projects within -->
+  <section class="row container.flex" id="projectCards">
+    <div class="col-sm-12 col-md-6 col-lg-4">
       <div class="card">
+        <img class="card-img-top" src="./assets/reactPortfolio.png" alt="screenshot of react portfolio" width="286">
         <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">My React Portfolio</h5>
+          <p class="card-text">This is my react portfolio, created to showcase my general coding skills.
+            React allows you to build efficient single page applications whihc I did using react router.</p>
+          <a href="#" class="btn btn-primary">Deployed Site</a>
+          <a href="#" class="btn btn-primary">Github Repo</a>
         </div>
       </div>
     </div>
-    <div class="col-sm-6">
+
+    <div class="col-sm-12 col-md-6 col-lg-4">
       <div class="card">
+        <img class="card-img-top" src="./assets/MoviePicker.jpg" alt="screenshot of react portfolio" width="286">
         <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Movie Picker</h5>
+          <p class="card-text">Movie DB will suggest a movie based on the user's inputted criteria. It will return a
+            movie name, a poster,
+            a summary of the plot, a rating and a trailer. The user can also saved movies to a list of favourites to
+            watch later</p>
+          <a href="https://amarmalde.github.io/Coding_Quiz/" class="btn btn-primary">Deployed Site</a>
+          <a href="https://github.com/AmarMalde/Coding_Quiz" class="btn btn-primary">Github Repo</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card">
+        <img class="card-img-top" src="./assets/CodingQuiz.jpg" alt="screenshot of react portfolio" width="286">
+        <div class="card-body">
+          <h5 class="card-title">Coding Quiz</h5>
+          <p class="card-text">Coding quiz will present the user with a dynamically generated questions and a list of
+            answers.
+            After completing the quiz the user can save thier scores to the local storage.</p>
+          <a href="https://amarmalde.github.io/Coding_Quiz/" class="btn btn-primary">Deployed Site</a>
+          <a href="https://github.com/AmarMalde/Coding_Quiz" class="btn btn-primary">Github Repo</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card">
+        <img class="card-img-top" src="./assets/WorkdayScheduler.png" alt="screenshot of react portfolio" width="286">
+        <div class="card-body">
+          <h5 class="card-title">Workday Scheduler</h5>
+          <p class="card-text">Work day scheduler allows the user to enter in events for each hour between 9-5.
+            Upon hitting save the data entered will be saved to the user's local storage so the webpage can be closed
+            and
+            re-opened while retaining the events.</p>
+          <a href="https://amarmalde.github.io/Work-Day-Scheduler/" class="btn btn-primary">Deployed Site</a>
+          <a href="https://github.com/AmarMalde/Work-Day-Scheduler" class="btn btn-primary">Github Repo</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card">
+        <img class="card-img-top" src="./assets/PasswordGenerator.jpg" alt="screenshot of react portfolio" width="286">
+        <div class="card-body">
+          <h5 class="card-title">Password Generator</h5>
+          <p class="card-text">Password generator will generate a password with between 10 and 64 characters,
+            that will only include character types you have chosen. It is guarenteed to include at least one of each
+            character type.</p>
+          <a href="https://amarmalde.github.io/Password_Generator/" class="btn btn-primary">Deployed Site</a>
+          <a href="https://github.com/AmarMalde/Password_Generator" class="btn btn-primary">Github Repo</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card">
+        <img class="card-img-top" src="./assets/reactPortfolio.png" alt="screenshot of react portfolio" width="286">
+        <div class="card-body">
+          <h5 class="card-title">My Purely HTML & CSS Porfolio</h5>
+          <p class="card-text">This portfolio was made with just HTML and CSS to show off my coding skills at an early
+            stage of my development.</p>
+          <a href="https://amarmalde.github.io/Amar_Malde_Portfolio/" class="btn btn-primary">Deployed Site</a>
+          <a href="https://github.com/AmarMalde/Amar_Malde_Portfolio" class="btn btn-primary">Github Repo</a>
         </div>
       </div>
     </div>
   </section>
 
-
-
-  <section id="skills" class="container">
+  <!-- AboutMe/ Skills section  -->
+  <section id="Skills" class="container">
     <div class="row">
-      <div class="col-sm-12 col-md-2 col-lg-2">
+      <div class="col-sm-12 col-md-3 col-lg-4">
         <h3>Skills</h3>
       </div>
-      <div class="col-sm-12 col-md-10 col-lg-10">
-
-
+      <div class="col-sm-12 col-md-9 col-lg-6">
+        <p class="DescriptionPTag">Software Languages: HTML, CSS, Java, jQuery, Node js, React, Bootstrap, Python, Ruby,
+          Git, Various APIs</p>
+        <p class="DescriptionPTag">Software & Platforms: Github, VS Code </p>
       </div>
-
-
     </div>
   </section>
 
-  <section id="aboutMe" class="container">
+  <!-- Copntact me section  -->
+  <section id="ContactMe" class="container">
     <div class="row">
-      <div class="col-sm-12 col-md-2 col-lg-2">
-        <h3>About me</h3>
+      <div class="col-sm-12 col-md-3 col-lg-4">
+        <h3>Contact Me</h3>
       </div>
-      <div class="col-sm-12 col-md-10 col-lg-10">
-        All about me blah blah blah
+      <div class="col-sm-12 col-md-9 col-lg-6">
+        <a href="https://github.com/AmarMalde">Gituhb: https://github.com/AmarMalde</a>
+        <br>
+        <a>Email: AmarMalde97@gmail.com</a>
 
       </div>
 
